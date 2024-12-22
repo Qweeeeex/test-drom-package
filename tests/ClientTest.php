@@ -4,7 +4,6 @@ namespace Stereoqweex\TestDromPackage\Test;
 
 use PHPUnit\Framework\Attributes\Depends;
 use PHPUnit\Framework\TestCase;
-use Stereoqweex\TestDromPackage\Client\BaseHttpClient;
 use Stereoqweex\TestDromPackage\Client\ExampleClient;
 use Stereoqweex\TestDromPackage\DTO\Request\PostCommentDTO;
 use Stereoqweex\TestDromPackage\DTO\Request\PutCommentDTO;

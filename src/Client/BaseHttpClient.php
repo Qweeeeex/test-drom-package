@@ -12,7 +12,7 @@ class BaseHttpClient implements HttpClientInterface
 {
     private Client $client;
 
-    public function __construct(array $config = ['base_uri' => 'https://stereoqweex.free.beeceptor.com'])
+    public function __construct(array $config = ['base_uri' => 'https://example.com'])
     {
         $this->client = new Client($config);
     }

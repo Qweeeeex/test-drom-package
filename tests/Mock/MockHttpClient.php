@@ -3,7 +3,6 @@
 namespace Stereoqweex\TestDromPackage\Test\Mock;
 
 use Stereoqweex\TestDromPackage\Client\Interface\HttpClientInterface;
-use Stereoqweex\TestDromPackage\Exception\CommentNotFoundException;
 use Stereoqweex\TestDromPackage\Exception\HttpClientException;
 
 class MockHttpClient implements HttpClientInterface
